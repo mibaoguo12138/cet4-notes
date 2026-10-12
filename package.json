@@ -1,0 +1,22 @@
+{
+  "name": "cet4-notes",
+  "version": "1.0.0",
+  "description": "CET-4 英语四级精华复习笔记",
+  "scripts": {
+    "dev": "vitepress dev docs",
+    "build": "vitepress build docs",
+    "preview": "vitepress preview docs"
+  },
+  "keywords": [
+    "cet4",
+    "english",
+    "study-notes"
+  ],
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "docx": "^9.7.1",
+    "marked": "^18.0.5",
+    "vitepress": "^1.6.4"
+  }
+}
