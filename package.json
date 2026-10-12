@@ -5,7 +5,8 @@
   "scripts": {
     "dev": "vitepress dev docs",
     "build": "vitepress build docs",
-    "preview": "vitepress preview docs"
+    "preview": "npm run build && wrangler dev",
+    "deploy": "npm run build && wrangler deploy"
   },
   "keywords": [
     "cet4",
@@ -18,5 +19,8 @@
     "docx": "^9.7.1",
     "marked": "^18.0.5",
     "vitepress": "^1.6.4"
+  },
+  "devDependencies": {
+    "wrangler": "^4.149.0"
   }
 }

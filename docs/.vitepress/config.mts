@@ -76,7 +76,7 @@ export default defineConfig({
 
     footer: {
       message: 'CET-4 大学英语四级精华复习笔记',
-      copyright: '© 2026 杜星宇'
+      copyright: '© 2026 东方季白'
     },
 
     outline: {
